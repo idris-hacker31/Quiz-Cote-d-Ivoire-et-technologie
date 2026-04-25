@@ -1,0 +1,359 @@
+{
+  "categories": [
+    {
+      "id": "culture",
+      "titre": "Culture & Régions",
+      "description": "Patrimoine, villes et histoire de la Côte d'Ivoire",
+      "emoji": "🏛️",
+      "couleur": "#F5A623",
+      "questions": [
+        { "region": "Abidjan", "question": "Quel est le nom du plus grand marché d'Abidjan, connu pour ses étals colorés et ses artisans ?", "options": ["Marché de Cocody", "Marché de Treichville", "Grand Marché d'Adjamé", "Marché de Yopougon"], "reponse": "Grand Marché d'Adjamé" },
+        { "region": "Abidjan", "question": "Quel pont emblématique relie le Plateau au quartier de Treichville à Abidjan ?", "options": ["Pont Houphouët-Boigny", "Pont de Gaulle", "Pont du Nord", "Pont Félix"], "reponse": "Pont Houphouët-Boigny" },
+        { "region": "Yamoussoukro", "question": "Quelle est la capitale politique et administrative de la Côte d'Ivoire ?", "options": ["Abidjan", "Bouaké", "Yamoussoukro", "Man"], "reponse": "Yamoussoukro" },
+        { "region": "Yamoussoukro", "question": "Quelle célèbre basilique se trouve à Yamoussoukro, inaugurée en 1990 ?", "options": ["Basilique Saint-Paul", "Basilique Notre-Dame de la Paix", "Cathédrale Saint-Pierre", "Basilique Sainte-Marie"], "reponse": "Basilique Notre-Dame de la Paix" },
+        { "region": "Bouaké", "question": "Bouaké est connue pour son grand festival culturel annuel. Comment s'appelle-t-il ?", "options": ["Festival des Masques", "Carnaval de Bouaké", "Fête de l'Igname", "Festival des Arts"], "reponse": "Carnaval de Bouaké" },
+        { "region": "Man", "question": "La région de Man est célèbre pour ses danseurs acrobatiques sur échasses. Comment appelle-t-on cette danse ?", "options": ["Zaouli", "Danse des Guédébys", "Danse Gboflé", "Kroumen"], "reponse": "Danse Gboflé" },
+        { "region": "San-Pédro", "question": "San-Pédro est le deuxième port de Côte d'Ivoire. Quel produit y est principalement exporté ?", "options": ["Pétrole", "Cacao", "Coton", "Diamants"], "reponse": "Cacao" },
+        { "region": "Korhogo", "question": "Korhogo est réputée pour quel artisanat traditionnel sénoufo emblématique ?", "options": ["Poteries en argile", "Tissu de Korhogo peint", "Bijoux en or", "Sculptures en ébène"], "reponse": "Tissu de Korhogo peint" },
+        { "region": "Grand-Bassam", "question": "Grand-Bassam a été classée au patrimoine mondial de l'UNESCO en 2012. Pour quelle raison ?", "options": ["Ses plages de sable fin", "Sa ville coloniale historique", "Ses richesses pétrolières", "Ses forêts tropicales"], "reponse": "Sa ville coloniale historique" },
+        { "region": "Taï", "question": "Le Parc National de Taï abrite l'une des dernières forêts tropicales primaires d'Afrique de l'Ouest. Quel primate y vit ?", "options": ["Gorille des plaines", "Chimpanzé de l'Ouest", "Babouin olive", "Mandrill"], "reponse": "Chimpanzé de l'Ouest" },
+        { "region": "Daloa", "question": "Daloa est la capitale de quelle région en Côte d'Ivoire ?", "options": ["Haut-Sassandra", "Marahoué", "Sassandra-Marahoué", "Lôh-Djiboua"], "reponse": "Haut-Sassandra" },
+        { "region": "Assinie", "question": "La lagune d'Assinie borde la frontière avec quel pays voisin à l'Est ?", "options": ["Ghana", "Libéria", "Burkina Faso", "Guinée"], "reponse": "Ghana" }
+      ]
+    },
+    {
+      "id": "gastronomie",
+      "titre": "Gastronomie",
+      "description": "Les plats traditionnels et saveurs des régions ivoiriennes",
+      "emoji": "🍲",
+      "couleur": "#E94560",
+      "questions": [
+        { "region": "National", "question": "Quel est le plat à base de semoule de manioc, considéré comme l'accompagnement national ivoirien ?", "options": ["Le foutou", "L'attiéké", "L'aloco", "Le placali"], "reponse": "L'attiéké" },
+        { "region": "National", "question": "Le kedjenou est un plat mijoté emblématique. Quelle viande est traditionnellement utilisée ?", "options": ["Bœuf", "Porc", "Poulet ou pintade", "Agneau"], "reponse": "Poulet ou pintade" },
+        { "region": "Sud / Lagunaire", "question": "Le foufou s'accompagne souvent de quelle sauce populaire dans le Sud ?", "options": ["Sauce gombo", "Sauce arachide", "Sauce tomate", "Sauce claire"], "reponse": "Sauce claire" },
+        { "region": "Abidjan", "question": "Comment appelle-t-on les bananes plantains frites, très populaires en snack à Abidjan ?", "options": ["Alloco", "Placali", "Bangui", "Soumbara"], "reponse": "Alloco" },
+        { "region": "Nord / Korhogo", "question": "Le riz au gras est un plat festif du Nord. Quel ingrédient lui donne sa couleur et son goût caractéristiques ?", "options": ["Le curcuma", "La tomate et les épices", "Le lait de coco", "Le gingembre"], "reponse": "La tomate et les épices" },
+        { "region": "Ouest / Man", "question": "La patte épaisse de manioc fermenté consommée à l'Ouest ivoirien s'appelle comment ?", "options": ["Dégué", "Kpoto", "Bouillie sénoufo", "Placali"], "reponse": "Placali" },
+        { "region": "National", "question": "Le garba est un plat populaire composé de thon et d'attiéké. Dans quelle commune d'Abidjan est-il le plus célèbre ?", "options": ["Cocody", "Marcory", "Adjamé", "Treichville"], "reponse": "Adjamé" },
+        { "region": "Centre / Bouaké", "question": "Quel(s) tubercule(s) est/sont la base du foutou, plat incontournable de la région Centre ?", "options": ["Manioc et igname", "Patate douce", "Pomme de terre", "Taro uniquement"], "reponse": "Manioc et igname" },
+        { "region": "Région lagunaire", "question": "Le bangui est une boisson traditionnelle ivoirienne. À partir de quoi est-elle fabriquée ?", "options": ["Sorgho", "Vin de palme", "Jus de canne à sucre", "Maïs fermenté"], "reponse": "Vin de palme" },
+        { "region": "National", "question": "Le soumbara est un condiment très utilisé dans la cuisine ivoirienne. De quoi est-il fait ?", "options": ["Graines de néré fermentées", "Pâte de tomate séchée", "Feuilles de baobab", "Poudre de gombo"], "reponse": "Graines de néré fermentées" },
+        { "region": "Abidjan / Côtier", "question": "Quel poisson grillé, très apprécié sur les maquis d'Abidjan, est communément appelé 'poisson braisé' ?", "options": ["Le capitaine", "La sardine", "Le barracuda", "Le tilapia"], "reponse": "Le capitaine" },
+        { "region": "Nord", "question": "Le dolo est une bière traditionnelle du Nord de la Côte d'Ivoire. À partir de quelle céréale est-elle brassée ?", "options": ["Maïs", "Sorgho", "Millet", "Riz"], "reponse": "Sorgho" }
+      ]
+    },
+    {
+      "id": "sport",
+      "titre": "Sport",
+      "description": "Football, athlètes et exploits sportifs de la Côte d'Ivoire",
+      "emoji": "⚽",
+      "couleur": "#2ECC71",
+      "questions": [
+        { "region": "National", "question": "Quel surnom porte l'équipe nationale de football de Côte d'Ivoire ?", "options": ["Les Lions", "Les Éléphants", "Les Panthères", "Les Aigles"], "reponse": "Les Éléphants" },
+        { "region": "National", "question": "En quelle année la Côte d'Ivoire a-t-elle remporté sa première Coupe d'Afrique des Nations (CAN) ?", "options": ["1988", "1992", "2015", "2023"], "reponse": "1992" },
+        { "region": "National", "question": "Combien de fois la Côte d'Ivoire a-t-elle remporté la CAN au total (jusqu'en 2024) ?", "options": ["1 fois", "2 fois", "3 fois", "4 fois"], "reponse": "3 fois" },
+        { "region": "National", "question": "Quel légendaire footballeur ivoirien a évolué à Chelsea, surnommé 'The Special One' par les fans ?", "options": ["Salomon Kalou", "Yaya Touré", "Didier Drogba", "Gervinho"], "reponse": "Didier Drogba" },
+        { "region": "National", "question": "Yaya Touré a été élu Footballeur Africain de l'Année combien de fois consécutivement ?", "options": ["2 fois", "3 fois", "4 fois", "5 fois"], "reponse": "4 fois" },
+        { "region": "National", "question": "Dans quel stade moderne se disputent les grands matchs à Abidjan depuis 2020 ?", "options": ["Stade Félix Houphouët-Boigny", "Stade de la Paix de Bouaké", "Stade Olympique d'Ebimpé", "Stade Robert Champroux"], "reponse": "Stade Olympique d'Ebimpé" },
+        { "region": "National", "question": "La Côte d'Ivoire a organisé la CAN 2023 (édition 2024). Quelle équipe a-t-elle battue en finale ?", "options": ["Nigeria", "Maroc", "Sénégal", "Égypte"], "reponse": "Nigeria" },
+        { "region": "National", "question": "Quelle athlète ivoirienne a été vice-championne du monde du 100m en salle en 2014 ?", "options": ["Arthur Cissé", "Murielle Ahouré", "Ben Youssef Meité", "Marie-Josée Ta Lou"], "reponse": "Murielle Ahouré" },
+        { "region": "National", "question": "Quel club ivoirien est le plus titré en championnat national de Ligue 1 ?", "options": ["Africa Sports", "ASEC Mimosas", "Stade d'Abidjan", "SOA"], "reponse": "ASEC Mimosas" },
+        { "region": "National", "question": "Quel gardien ivoirien, surnommé 'Copa', a défendu les cages des Éléphants pendant de nombreuses années ?", "options": ["Boubacar Barry", "Sylvain Gbohouo", "Aristide Zogbo", "Copa Barry"], "reponse": "Copa Barry" },
+        { "region": "National", "question": "Le joueur Serge Aurier a principalement évolué dans quel club anglais de Premier League ?", "options": ["Arsenal", "Chelsea", "Tottenham Hotspur", "Leicester City"], "reponse": "Tottenham Hotspur" },
+        { "region": "National", "question": "Quel joueur ivoirien a remporté la Ligue des Champions avec Chelsea en 2012 ?", "options": ["Didier Drogba", "Salomon Kalou", "Gervinho", "Kolo Touré"], "reponse": "Didier Drogba" }
+      ]
+    },
+    {
+      "id": "ethnies",
+      "titre": "Ethnies & Cultures",
+      "description": "Les peuples, langues et traditions ethniques de Côte d'Ivoire",
+      "emoji": "🎭",
+      "couleur": "#9B59B6",
+      "questions": [
+        { "region": "National", "question": "La Côte d'Ivoire compte environ combien de groupes ethniques ?", "options": ["Plus de 20", "Plus de 40", "Plus de 60", "Plus de 80"], "reponse": "Plus de 60" },
+        { "region": "Centre", "question": "Les Baoulé appartiennent à quel grand groupe ethnique de Côte d'Ivoire ?", "options": ["Mandé", "Gur (Voltaïque)", "Akan", "Krou"], "reponse": "Akan" },
+        { "region": "Ouest", "question": "Quel peuple de l'Ouest ivoirien est célèbre pour ses masques sacrés Dan (Yacouba) ?", "options": ["Les Sénoufo", "Les Dan (Yacouba)", "Les Bété", "Les Gouro"], "reponse": "Les Dan (Yacouba)" },
+        { "region": "Nord / Korhogo", "question": "Les Sénoufo sont le peuple dominant du Nord ivoirien. Quelle est leur société d'initiation traditionnelle ?", "options": ["Le Poro", "Le Dô", "Le Bois Sacré", "Le Sande"], "reponse": "Le Poro" },
+        { "region": "National", "question": "Le dioula est une langue commerciale parlée dans tout le pays. À quel grand groupe linguistique appartient-elle ?", "options": ["Krou", "Akan", "Mandé", "Gur"], "reponse": "Mandé" },
+        { "region": "Centre-Ouest", "question": "La danse Zaouli, inscrite au patrimoine immatériel de l'UNESCO, appartient à quel peuple ?", "options": ["Les Baoulé", "Les Gouro", "Les Bété", "Les Agni"], "reponse": "Les Gouro" },
+        { "region": "Ouest", "question": "Les Bété sont un peuple de l'Ouest ivoirien. À quel grand groupe ethnique appartiennent-ils ?", "options": ["Akan", "Mandé", "Krou", "Gur"], "reponse": "Krou" },
+        { "region": "Est / Abengourou", "question": "Les Agni (Anyi) sont proches des Baoulé. Dans quelle région se concentre principalement ce peuple ?", "options": ["L'Indénié-Djuablin", "Le Haut-Sassandra", "La Marahoué", "Le Tonkpi"], "reponse": "L'Indénié-Djuablin" },
+        { "region": "Sud-Ouest", "question": "Les Kroumen sont un peuple côtier réputé pour quelle activité traditionnelle historique ?", "options": ["La pêche hauturière et le travail maritime", "L'agriculture du cacao", "Le commerce de l'or", "La forge du fer"], "reponse": "La pêche hauturière et le travail maritime" },
+        { "region": "National", "question": "Quelle est la langue officielle de la Côte d'Ivoire ?", "options": ["Le dioula", "L'anglais", "Le français", "Le baoulé"], "reponse": "Le français" },
+        { "region": "Nord-Ouest", "question": "Les Malinké (Mandinka) du Nord-Ouest pratiquent majoritairement quelle religion ?", "options": ["Christianisme", "Animisme", "Islam", "Bouddhisme"], "reponse": "Islam" },
+        { "region": "Sud / Lagune", "question": "Les Adjoukrou sont connus pour quelle pratique culturelle liée à leur rapport à la nature ?", "options": ["La culture du raphia et les forêts sacrées", "La pêche au filet en haute mer", "La sculpture sur ivoire", "Les tatouages tribaux"], "reponse": "La culture du raphia et les forêts sacrées" }
+      ]
+    },
+    {
+      "id": "python",
+      "titre": "Python",
+      "description": "Maîtrisez les concepts fondamentaux et avancés du langage Python",
+      "emoji": "🐍",
+      "couleur": "#3776AB",
+      "questions": [
+        {
+          "region": "Fondamentaux",
+          "question": "Quelle est la sortie du code suivant ?\n\nx = [1, 2, 3]\nprint(x[-1])",
+          "options": ["1", "3", "-1", "Erreur"],
+          "reponse": "3",
+          "explication": "En Python, les indices négatifs permettent d'accéder aux éléments depuis la fin de la liste. -1 correspond au dernier élément."
+        },
+        {
+          "region": "Fondamentaux",
+          "question": "Quelle est la différence entre une liste et un tuple en Python ?",
+          "options": [
+            "Un tuple est mutable, une liste est immutable",
+            "Une liste est mutable, un tuple est immutable",
+            "Les deux sont mutables",
+            "Les deux sont immutables"
+          ],
+          "reponse": "Une liste est mutable, un tuple est immutable",
+          "explication": "Les listes [] peuvent être modifiées après création. Les tuples () sont figés et ne peuvent pas être modifiés, ce qui les rend plus rapides et sûrs."
+        },
+        {
+          "region": "Fondamentaux",
+          "question": "Que retourne le code suivant ?\n\nprint(type(3 / 2))",
+          "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'double'>"],
+          "reponse": "<class 'float'>",
+          "explication": "En Python 3, la division / retourne toujours un float. Pour obtenir un entier, il faut utiliser la division entière //."
+        },
+        {
+          "region": "Fondamentaux",
+          "question": "Quelle est la sortie de ce code ?\n\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)",
+          "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "[4]", "Erreur"],
+          "reponse": "[1, 2, 3, 4]",
+          "explication": "b = a ne crée pas une copie, les deux variables pointent vers le même objet en mémoire. Modifier b modifie donc aussi a. Utilisez b = a.copy() pour une vraie copie."
+        },
+        {
+          "region": "Structures",
+          "question": "Quelle est la bonne syntaxe pour une compréhension de liste qui retourne les carrés des nombres pairs de 0 à 9 ?",
+          "options": [
+            "[x**2 for x in range(10) if x % 2 == 0]",
+            "[x**2 if x % 2 == 0 for x in range(10)]",
+            "{x**2 for x in range(10) if x % 2 == 0}",
+            "list(x**2 for x in range(10))"
+          ],
+          "reponse": "[x**2 for x in range(10) if x % 2 == 0]",
+          "explication": "La compréhension de liste suit la syntaxe : [expression for variable in iterable if condition]. C'est plus concis et plus rapide qu'une boucle for classique."
+        },
+        {
+          "region": "Fonctions",
+          "question": "Que signifie le mot-clé *args dans une fonction Python ?",
+          "options": [
+            "Un argument obligatoire nommé",
+            "Un nombre variable d'arguments positionnels",
+            "Un nombre variable d'arguments nommés",
+            "Un argument avec une valeur par défaut"
+          ],
+          "reponse": "Un nombre variable d'arguments positionnels",
+          "explication": "*args permet de passer un nombre quelconque d'arguments positionnels à une fonction. Ils sont reçus sous forme de tuple. **kwargs fait pareil pour les arguments nommés (dict)."
+        },
+        {
+          "region": "Fonctions",
+          "question": "Quelle est la sortie de ce code ?\n\ndef f(x, y=10):\n    return x + y\nprint(f(5))",
+          "options": ["5", "10", "15", "Erreur"],
+          "reponse": "15",
+          "explication": "y=10 est une valeur par défaut. Quand f(5) est appelé sans le 2e argument, y vaut 10. Donc f(5) retourne 5 + 10 = 15."
+        },
+        {
+          "region": "POO",
+          "question": "Quel est le rôle de la méthode __init__ dans une classe Python ?",
+          "options": [
+            "Détruire l'objet après utilisation",
+            "Initialiser les attributs lors de la création d'un objet",
+            "Définir les méthodes de classe",
+            "Hériter d'une classe parente"
+          ],
+          "reponse": "Initialiser les attributs lors de la création d'un objet",
+          "explication": "__init__ est le constructeur en Python. Il est appelé automatiquement à chaque création d'instance. Le paramètre self représente l'instance elle-même."
+        },
+        {
+          "region": "POO",
+          "question": "Comment appelle-t-on le mécanisme qui permet à une classe fille de réutiliser les attributs et méthodes d'une classe parente ?",
+          "options": ["Encapsulation", "Polymorphisme", "Héritage", "Abstraction"],
+          "reponse": "Héritage",
+          "explication": "L'héritage (class Fille(Parente)) permet la réutilisation de code. Le polymorphisme permet à des objets de types différents d'utiliser la même interface. L'encapsulation protège les données internes."
+        },
+        {
+          "region": "Avancé",
+          "question": "Que fait le décorateur @staticmethod dans une classe Python ?",
+          "options": [
+            "Rend la méthode accessible sans instancier la classe, sans accès à self ni cls",
+            "Permet d'accéder aux attributs de la classe via cls",
+            "Empêche la méthode d'être héritée",
+            "Rend la méthode privée"
+          ],
+          "reponse": "Rend la méthode accessible sans instancier la classe, sans accès à self ni cls",
+          "explication": "@staticmethod est une méthode utilitaire liée à la classe mais indépendante de toute instance. @classmethod reçoit cls comme premier argument et peut accéder aux attributs de classe."
+        },
+        {
+          "region": "Avancé",
+          "question": "Quelle est la sortie de ce code ?\n\ndef gen():\n    yield 1\n    yield 2\ng = gen()\nprint(next(g))\nprint(next(g))",
+          "options": ["1 puis 1", "1 puis 2", "2 puis 1", "Erreur"],
+          "reponse": "1 puis 2",
+          "explication": "yield transforme une fonction en générateur. Chaque appel à next() reprend l'exécution là où le dernier yield s'est arrêté. Les générateurs sont très efficaces en mémoire pour traiter de grandes données."
+        },
+        {
+          "region": "Avancé",
+          "question": "Quelle structure de données Python garantit l'unicité de ses éléments et offre des opérations ensemblistes (union, intersection) ?",
+          "options": ["list", "tuple", "dict", "set"],
+          "reponse": "set",
+          "explication": "Un set (ensemble) ne contient pas de doublons et supporte les opérations : union (|), intersection (&), différence (-), différence symétrique (^). Sa recherche est en O(1) comme un dict."
+        }
+      ]
+    },
+    {
+      "id": "cybersecurite",
+      "titre": "Cybersécurité",
+      "description": "Attaques, défenses, cryptographie et bonnes pratiques de sécurité informatique",
+      "emoji": "🔐",
+      "couleur": "#E74C3C",
+      "questions": [
+        {
+          "region": "Attaques",
+          "question": "Qu'est-ce qu'une attaque de type 'SQL Injection' ?",
+          "options": [
+            "Injecter du code malveillant dans une base de données via des champs de saisie non sécurisés",
+            "Surcharger un serveur web avec des requêtes massives",
+            "Intercepter les communications entre deux parties",
+            "Chiffrer les fichiers d'une victime pour demander une rançon"
+          ],
+          "reponse": "Injecter du code malveillant dans une base de données via des champs de saisie non sécurisés",
+          "explication": "Une injection SQL exploite une validation insuffisante des entrées utilisateur. Par exemple, saisir ' OR '1'='1 dans un champ login peut contourner l'authentification. La parade : utiliser des requêtes préparées (prepared statements)."
+        },
+        {
+          "region": "Attaques",
+          "question": "Qu'est-ce qu'une attaque 'Man-in-the-Middle' (MitM) ?",
+          "options": [
+            "Un logiciel qui chiffre vos fichiers contre rançon",
+            "L'interception secrète des communications entre deux parties",
+            "Une attaque par force brute sur un mot de passe",
+            "L'envoi massif de courriels frauduleux"
+          ],
+          "reponse": "L'interception secrète des communications entre deux parties",
+          "explication": "Dans une attaque MitM, l'attaquant se positionne entre la victime et le serveur, interceptant et éventuellement modifiant les données échangées. HTTPS, le chiffrement de bout en bout et les certificats SSL/TLS protègent contre cela."
+        },
+        {
+          "region": "Attaques",
+          "question": "Qu'est-ce que le 'phishing' ?",
+          "options": [
+            "Une technique de chiffrement avancée",
+            "Une attaque par déni de service distribué",
+            "Une tentative de tromper des utilisateurs pour voler leurs informations via de faux sites ou emails",
+            "Une vulnérabilité dans les protocoles réseau"
+          ],
+          "reponse": "Une tentative de tromper des utilisateurs pour voler leurs informations via de faux sites ou emails",
+          "explication": "Le phishing (hameçonnage) exploite l'ingénierie sociale. L'attaquant se fait passer pour une entité de confiance (banque, service gouvernemental). Le spear phishing cible des individus spécifiques avec des messages personnalisés."
+        },
+        {
+          "region": "Attaques",
+          "question": "Une attaque DDoS (Distributed Denial of Service) a pour objectif principal de :",
+          "options": [
+            "Voler des données confidentielles",
+            "Installer un ransomware sur les serveurs ciblés",
+            "Rendre un service ou site web indisponible en le surchargeant de trafic",
+            "Craquer les mots de passe des utilisateurs"
+          ],
+          "reponse": "Rendre un service ou site web indisponible en le surchargeant de trafic",
+          "explication": "Le DDoS utilise un réseau de machines compromises (botnet) pour envoyer des millions de requêtes simultanées vers une cible. Les parades incluent les CDN, les pare-feux applicatifs (WAF) et les services anti-DDoS."
+        },
+        {
+          "region": "Cryptographie",
+          "question": "Quelle est la différence entre le chiffrement symétrique et asymétrique ?",
+          "options": [
+            "Le symétrique utilise une clé publique/privée, l'asymétrique une seule clé",
+            "Le symétrique utilise une seule clé partagée, l'asymétrique utilise une paire clé publique/privée",
+            "Le symétrique est plus sécurisé que l'asymétrique",
+            "L'asymétrique ne peut pas chiffrer de données volumineuses"
+          ],
+          "reponse": "Le symétrique utilise une seule clé partagée, l'asymétrique utilise une paire clé publique/privée",
+          "explication": "AES est symétrique (rapide, pour chiffrer des données). RSA/ECC sont asymétriques (lents, pour échanger des clés ou signer). HTTPS combine les deux : asymétrique pour l'échange de clé, symétrique pour les données."
+        },
+        {
+          "region": "Cryptographie",
+          "question": "Qu'est-ce qu'une fonction de hachage cryptographique comme SHA-256 ?",
+          "options": [
+            "Un algorithme de chiffrement réversible",
+            "Une fonction qui produit une empreinte de taille fixe non réversible à partir de données",
+            "Un protocole de communication sécurisé",
+            "Un type de pare-feu réseau"
+          ],
+          "reponse": "Une fonction qui produit une empreinte de taille fixe non réversible à partir de données",
+          "explication": "Une fonction de hachage produit un 'digest' unique de taille fixe. Elle est déterministe, rapide, et irréversible. Utilisée pour vérifier l'intégrité des fichiers, stocker les mots de passe (avec salage), et les signatures numériques."
+        },
+        {
+          "region": "Défense",
+          "question": "Qu'est-ce que l'authentification à deux facteurs (2FA) ?",
+          "options": [
+            "Utiliser deux mots de passe différents",
+            "Vérifier l'identité via deux méthodes distinctes (ex: mot de passe + code SMS)",
+            "Chiffrer les données deux fois avec des clés différentes",
+            "Avoir deux comptes utilisateur séparés"
+          ],
+          "reponse": "Vérifier l'identité via deux méthodes distinctes (ex: mot de passe + code SMS)",
+          "explication": "Le 2FA combine : quelque chose que vous savez (mot de passe), quelque chose que vous possédez (téléphone/token) ou quelque chose que vous êtes (biométrie). Même si le mot de passe est volé, l'accès reste bloqué."
+        },
+        {
+          "region": "Défense",
+          "question": "Qu'est-ce qu'un 'pare-feu' (firewall) dans un réseau informatique ?",
+          "options": [
+            "Un logiciel qui sauvegarde automatiquement les données",
+            "Un système qui surveille et filtre le trafic réseau selon des règles définies",
+            "Un protocole de chiffrement des communications",
+            "Un système de détection des virus dans les fichiers"
+          ],
+          "reponse": "Un système qui surveille et filtre le trafic réseau selon des règles définies",
+          "explication": "Un firewall peut être matériel ou logiciel. Il filtre les paquets entrants/sortants selon des règles (IP, port, protocole). Un WAF (Web Application Firewall) analyse aussi le contenu applicatif (HTTP/HTTPS) pour bloquer les injections, XSS, etc."
+        },
+        {
+          "region": "Défense",
+          "question": "Qu'est-ce que le principe du 'moindre privilège' en sécurité informatique ?",
+          "options": [
+            "Donner à chaque utilisateur uniquement les droits strictement nécessaires à ses tâches",
+            "Chiffrer toutes les données avec la clé la plus courte possible",
+            "Utiliser le mot de passe le plus simple possible pour mémoriser facilement",
+            "Désactiver tous les services réseau non essentiels"
+          ],
+          "reponse": "Donner à chaque utilisateur uniquement les droits strictement nécessaires à ses tâches",
+          "explication": "Le principe du moindre privilège (PoLP) limite les dommages en cas de compromission. Un compte piraté avec des droits limités ne peut pas tout détruire. C'est un pilier de la sécurité défensive, complémentaire à la segmentation réseau."
+        },
+        {
+          "region": "Vulnérabilités",
+          "question": "Qu'est-ce qu'une attaque XSS (Cross-Site Scripting) ?",
+          "options": [
+            "Une attaque qui injecte des scripts malveillants dans des pages web vues par d'autres utilisateurs",
+            "Une attaque qui falsifie des requêtes HTTP entre sites",
+            "Une tentative d'accès non autorisé via SSH",
+            "Une technique pour contourner les certificats SSL"
+          ],
+          "reponse": "Une attaque qui injecte des scripts malveillants dans des pages web vues par d'autres utilisateurs",
+          "explication": "Le XSS injecte du JavaScript malveillant dans une page. Les victimes exécutent ce script involontairement, permettant le vol de cookies de session, la redirection vers des sites malveillants, ou le keylogging. Protection : échapper les entrées utilisateur côté serveur."
+        },
+        {
+          "region": "Réseau",
+          "question": "Que signifie HTTPS et quel est son rôle principal ?",
+          "options": [
+            "HyperText Transfer Protocol Secure — il chiffre les communications entre navigateur et serveur",
+            "High Transfer Protocol System — il accélère le chargement des pages web",
+            "Hyper Transport Protocol Security — il bloque les publicités malveillantes",
+            "HyperText Transfer Private System — il rend la navigation anonyme"
+          ],
+          "reponse": "HyperText Transfer Protocol Secure — il chiffre les communications entre navigateur et serveur",
+          "explication": "HTTPS = HTTP + TLS (anciennement SSL). Il chiffre les données en transit (confidentialité), vérifie l'identité du serveur via certificat (authentification) et garantit que les données ne sont pas altérées (intégrité). Le cadenas dans le navigateur indique HTTPS."
+        },
+        {
+          "region": "Bonnes pratiques",
+          "question": "Parmi ces mots de passe, lequel est le plus sécurisé ?",
+          "options": [
+            "password123",
+            "P@ssw0rd!",
+            "MonChien2024",
+            "xK#9mL!qR2&vN5wP"
+          ],
+          "reponse": "xK#9mL!qR2&vN5wP",
+          "explication": "Un bon mot de passe est long (16+ caractères), aléatoire, et mélange majuscules, minuscules, chiffres et symboles. 'password123' et 'P@ssw0rd!' sont dans les dictionnaires d'attaque. Utilisez un gestionnaire de mots de passe (Bitwarden, KeePass) pour générer et stocker des mots de passe forts."
+        }
+      ]
+    }
+  ]
+}
